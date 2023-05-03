@@ -11,7 +11,7 @@ const img = document.querySelector('#myimage');
 
 const history = () => {
     heading.innerHTML = "History";
-   
+    img.src = "history.jpeg"
     info.innerHTML = "Lions are one of the largest and most powerful felines in the world, and have been a symbol of strength and courage for thousands of years. Historically, lions have been associated with royalty and are often depicted in heraldry and other symbols of power."
 };
 
@@ -34,6 +34,7 @@ btn2.addEventListener('click',vision);
 
 const goals = () => {
     heading.innerHTML = "Goals";
+    img.src = "goals.jpg"
     info.innerHTML = "Lions are predatory animals and their primary goal is to hunt and feed on prey to survive. They are apex predators, which means they are at the top of the food chain in their ecosystem. Lions are social animals and live in groups called prides, which helps them in hunting and protecting their territory."
 };
 
